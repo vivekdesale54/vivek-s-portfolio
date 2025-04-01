@@ -1,0 +1,145 @@
+.main-container{
+    height: 832px;
+    background: var(--Prac-brand-color, linear-gradient(180deg, #4C5A90 0%, #323642 100%));
+}
+.hero-image{
+    height: 80vh;
+    width: 408px;
+    float: right;
+    padding-top: 5px;
+    padding-right: 140.7px;
+    font-weight: 500;
+
+    
+     }
+.hero-section{
+    display: flex;
+    flex-direction: column;
+    margin-left: 240px;
+   
+}
+
+.head{
+    width: 669.905px;
+    height: 180px;
+    flex-shrink: 0;
+    font-family: "Plus Jakarta Sans";
+    font-style: normal;
+    font-size: 48px;
+    font: medium;
+    font-weight: 500;
+    margin-top: 125.05px;
+    color: rgba(255, 255, 255, 0.90);
+    word-wrap: break-word;
+}
+.yellow-col{
+    color: #F2CD5D;
+}
+.sub-head{
+    font-family: "Plus Jakarta Sans";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 56.05px;
+    color: rgba(255, 255, 255, 0.90);
+    word-wrap: break-word;
+    line-height: normal;
+    margin-bottom: 34px;
+
+}
+
+.primary-cta{
+    width: 225.96px;
+    height: 60.855px;
+    flex-shrink: 0;
+    border-radius: 60px;
+    background: linear-gradient(92deg, #F2CD5D 3.82%, #604800 96.18%);
+}
+
+.primary-cta .secondary-cta{
+    display: inline-block;
+}
+
+.secondary-cta{
+    width: 225.96px;
+    height: 60.855px;
+    flex-shrink: 0;
+    border-radius: 60px;
+    border: 1px solid #000;
+    background-color: transparent;
+    color: rgba(255, 255, 255, 0.90);
+    margin-left: 16px;
+   
+}
+
+.section2{
+    display: flex;
+    margin-top: 356.98px;
+    font-family: "Plus Jakarta Sans";
+    font-weight: 500;
+    font-size: 56px;
+    justify-content: center;
+    word-wrap: break-word;
+
+}
+
+   
+.head-2{
+    display: flex;
+    justify-content: center;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 0px;
+}
+
+.marketing-sales{
+    font-size: 40px;
+    font-weight: normal;
+    line-height: normal;
+}
+.development{
+    font-size: 40px;
+    font-weight: normal;
+    line-height: normal;
+}
+.web-design{
+    font-size: 40px;
+    font-weight: normal;
+    line-height: normal;
+    padding-left: 16px;
+}
+
+
+ul p {
+    padding-right: 64px;
+}
+
+.images3{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 14px;
+}
+.image-1{
+    width: 415.547px;
+    height: 420px;
+    flex-shrink: 0;
+}
+
+
+.image-2{
+    height: 326.582px;
+    width: 353px;
+    flex-shrink: 0;
+    align-self: stretch;
+    margin-right: 39px;
+}
+
+.image-3{
+    width: 313.335px;
+    height: 312.639px;
+    flex-shrink: 0; 
+}
