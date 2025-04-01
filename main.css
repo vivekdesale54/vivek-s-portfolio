@@ -49,6 +49,7 @@
 }
 
 .primary-cta{
+    padding-right: 50px;
     width: 225.96px;
     height: 60.855px;
     flex-shrink: 0;
