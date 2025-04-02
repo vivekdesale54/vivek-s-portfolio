@@ -1,7 +1,9 @@
+
 .main-container{
-    height: 832px;
+    height: 830px;
     background: var(--Prac-brand-color, linear-gradient(180deg, #4C5A90 0%, #323642 100%));
 }
+
 .hero-image{
     height: 80vh;
     width: 408px;
@@ -9,9 +11,8 @@
     padding-top: 5px;
     padding-right: 140.7px;
     font-weight: 500;
+}
 
-    
-     }
 .hero-section{
     display: flex;
     flex-direction: column;
@@ -32,9 +33,11 @@
     color: rgba(255, 255, 255, 0.90);
     word-wrap: break-word;
 }
+
 .yellow-col{
     color: #F2CD5D;
 }
+
 .sub-head{
     font-family: "Plus Jakarta Sans";
     font-size: 24px;
@@ -49,7 +52,6 @@
 }
 
 .primary-cta{
-    padding-right: 50px;
     width: 225.96px;
     height: 60.855px;
     flex-shrink: 0;
@@ -75,16 +77,16 @@
 
 .section2{
     display: flex;
-    margin-top: 356.98px;
+    margin-top: 240.73px;
     font-family: "Plus Jakarta Sans";
     font-weight: 500;
     font-size: 56px;
     justify-content: center;
     word-wrap: break-word;
+    
 
 }
 
-   
 .head-2{
     display: flex;
     justify-content: center;
@@ -102,18 +104,19 @@ ul {
     font-weight: normal;
     line-height: normal;
 }
+
 .development{
     font-size: 40px;
     font-weight: normal;
     line-height: normal;
 }
+
 .web-design{
     font-size: 40px;
     font-weight: normal;
     line-height: normal;
-    padding-left: 16px;
+    margin-left: 32px;
 }
-
 
 ul p {
     padding-right: 64px;
@@ -144,3 +147,4 @@ ul p {
     height: 312.639px;
     flex-shrink: 0; 
 }
+
