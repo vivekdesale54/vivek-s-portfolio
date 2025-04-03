@@ -16,8 +16,7 @@
 .hero-section{
     display: flex;
     flex-direction: column;
-    margin-left: 240px;
-   
+    margin-left: 240px;   
 }
 
 .head{
@@ -48,7 +47,6 @@
     word-wrap: break-word;
     line-height: normal;
     margin-bottom: 34px;
-
 }
 
 .primary-cta{
@@ -71,8 +69,7 @@
     border: 1px solid #000;
     background-color: transparent;
     color: rgba(255, 255, 255, 0.90);
-    margin-left: 16px;
-   
+    margin-left: 16px;   
 }
 
 .section2{
@@ -83,8 +80,6 @@
     font-size: 56px;
     justify-content: center;
     word-wrap: break-word;
-    
-
 }
 
 .head-2{
@@ -126,25 +121,123 @@ ul p {
     display: flex;
     justify-content: flex-start;
     margin-top: 14px;
+    width: 315px;
 }
 .image-1{
-    width: 415.547px;
+    width: 315.547px;
     height: 420px;
     flex-shrink: 0;
 }
 
 
 .image-2{
-    height: 326.582px;
+    height: 315.582px;
     width: 353px;
     flex-shrink: 0;
     align-self: stretch;
     margin-right: 39px;
 }
 
+.section3{
+    justify-items: center;
+}
+
+.image-sec{
+    display: flex;
+    max-width: 1001.537px;
+    
+    
+}
 .image-3{
     width: 313.335px;
     height: 312.639px;
-    flex-shrink: 0; 
 }
 
+.section3{
+    margin-top: 120px;
+    background: linear-gradient(180deg, #4C5A90 0%, #323642 100%);
+    width: fit-content;
+    height: fit-content;
+    flex-shrink: 0;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.head-3sec{
+    font-family: "Plus Jakarta Sans";
+    font-size: 56px;
+    padding-left: 374.5px;
+    padding-right: 374.5px;
+    padding-top: 72px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.images-sec3{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+.img-por-1{
+    width: 50vh;
+    height: 487px;
+    padding-left: 0%;
+    
+}
+
+.img-por-2{
+    
+    height: 487px;
+    align-self: stretch;
+    
+}
+
+.img-por-3{
+    width: 50vh;
+    height: 487px;
+}
+
+.img-por-4{
+    
+    height: 487px;
+    align-self: stretch;
+}
+
+.uls{
+    font-family: "Plus Jakarta Sans";
+    font-size: 40px;
+    color: white;
+    align-items: flex-end;
+    padding-left: 0%;
+}
+
+.ul-1{
+    padding-top: 0px;
+    float: inline-start;
+    margin-left: 0%;
+    margin-bottom: 60px;
+    padding-left: 0%;
+}
+
+.ul-2{
+    padding-top: 0px;
+    margin-bottom: 60px;
+    float: inline-start;
+    padding-left: 0%;
+}
+
+.ul-3{
+    padding-top: 0px;
+    margin-bottom: 60px;
+    float: inline-start;
+    padding-left: 0%;
+}
+
+.ul-4{
+    padding-top: 0px;
+    padding-left: 0%;
+    margin-bottom: 60px;
+    float: inline-start;
+}
