@@ -4,11 +4,39 @@
     background: var(--Prac-brand-color, linear-gradient(180deg, #4C5A90 0%, #323642 100%));
 }
 
+a{
+    text-decoration: none;
+}
+
+.navbar-brand{
+    display: inline-flex;
+    margin-top: 54px;
+    font-family: "Plus Jakarta Sans";
+    font-size: 56px;
+    font: medium;
+    color: rgba(255, 255, 255, 1);
+
+}
+
+.nav-item{
+    position: absolute;
+    float: right; 
+    margin-left: 679px;
+    margin-top: -40px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.navbar-link{
+    color: rgba(255, 255, 255, 1);
+    padding-right: 34px;
+}
+
+
 .hero-image{
-    height: 80vh;
+    height: 70vh;
     width: 408px;
     float: right;
-    padding-top: 5px;
+    padding-top: 50px;
     padding-right: 140.7px;
     font-weight: 500;
 }
@@ -240,4 +268,90 @@ ul p {
     padding-left: 0%;
     margin-bottom: 60px;
     float: inline-start;
+}
+
+.section4{
+    margin-top: 140px;
+}
+
+.head-sec4{
+    display: flex;
+    justify-content: center;
+    font-family: "Plus Sans Jakarta";
+    font-size: 78px;
+    font: 400;
+    font-style: normal;
+    line-height: normal;
+}
+.right-left-sec4{
+    display: flex;
+    justify-content: center;    
+}
+
+.image-sec4{
+    width: 410px;
+    height: 363.47px;
+    margin-right: auto;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    }
+
+.right-left-sec4{
+    display: flex;
+    margin-left: 140px;
+    justify-content: center;
+}
+
+.right-left-sec4 > p {
+    font-family: "Plus Jakarta Sans";
+    font-size: 32px;
+    margin-left: 15vh;
+}
+
+.section5{
+    width: 1000px;
+    background: linear-gradient(180deg, #4C5A90 0%, #323642 100%);
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    margin: auto;
+    justify-content: center;
+}
+
+.head-5{
+    display: flex;
+    justify-content: center;
+    margin-left: 500px;
+    margin-right: 500px;
+    font-family: "Plus Sans Jakarta";
+    font-size: 78px;
+    font: 400;
+    font-style: normal;
+    line-height: normal;
+}
+
+.sec5-img1{
+    width: 300.53px;
+    height: 300.53px;
+    margin-top: 200px;
+}
+
+.sec5-img2{
+    width: 300.53px;
+    height: 300.53px;
+    margin-top: -800px;
+}
+
+.sec5-img3{
+    width: 300.53px;
+    height: 300.53px;
+    margin-top: -800px;
+}
+
+.section5-center{
+    display: grid;
+    grid-template-columns: 20vh;    
+}
+
+.div-1-sec5{
+    justify-self: flex-start;
 }
