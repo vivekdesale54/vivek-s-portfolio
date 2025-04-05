@@ -309,49 +309,51 @@ ul p {
 }
 
 .section5{
+    margin-top: 120px;
     width: 1000px;
+    justify-items: center;
+    margin-left: auto;
+    margin-right: auto;
     background: linear-gradient(180deg, #4C5A90 0%, #323642 100%);
-    display: grid;
-    grid-template-columns: 33% 33% 33%;
-    margin: auto;
+}
+.section5-center{
+    display: flex;
+    gap: 28px;
+    margin-top: 80px;
     justify-content: center;
+    
 }
 
 .head-5{
-    display: flex;
-    justify-content: center;
-    margin-left: 500px;
-    margin-right: 500px;
-    font-family: "Plus Sans Jakarta";
+    font-family: "Plus Jakarta Sans";
+    color: rgba(255, 255, 255, 1);
     font-size: 78px;
-    font: 400;
     font-style: normal;
     line-height: normal;
 }
 
+.sect-5-head{
+    margin-top: 20px;
+}
 .sec5-img1{
-    width: 300.53px;
-    height: 300.53px;
-    margin-top: 200px;
+    width: 311px;
 }
 
 .sec5-img2{
-    width: 300.53px;
-    height: 300.53px;
-    margin-top: -800px;
+    width: 311px;
 }
 
 .sec5-img3{
-    width: 300.53px;
-    height: 300.53px;
-    margin-top: -800px;
+    width: 311px;
+    
 }
 
-.section5-center{
-    display: grid;
-    grid-template-columns: 20vh;    
-}
-
-.div-1-sec5{
-    justify-self: flex-start;
+.section5-center p {
+    color: #FFF;
+    font-family: "Plus Jakarta Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: normal;
+    font: medium;
 }
