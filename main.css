@@ -357,3 +357,38 @@ ul p {
     line-height: normal;
     font: medium;
 }
+
+.sec-footer{
+    margin-top: 120px;
+}
+
+.three-pages-link{
+    display: flex;
+    flex-direction: row;
+    margin-left: 300px;
+    margin-right: 117px;
+    gap: 20px;
+    font-family: "Plus Jakarta Sans";
+    font-size: 40px;
+    font: medium;
+}
+
+.social-images{
+    margin-top: 60px;
+    margin-left: 545px;
+    margin-right: auto;
+    width: 30px;
+    height: 30px;
+    gap: 22px;
+}
+
+.address{
+    margin-top: 200px;
+    margin-left: 629px;
+
+}
+
+.copyright{
+    margin-top: 30px;
+    margin-left: 629px;
+}
