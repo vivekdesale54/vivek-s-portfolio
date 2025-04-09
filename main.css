@@ -80,6 +80,7 @@ a{
 .primary-cta{
     width: 225.96px;
     height: 60.855px;
+    border: none;
     flex-shrink: 0;
     border-radius: 60px;
     background: linear-gradient(92deg, #F2CD5D 3.82%, #604800 96.18%);
@@ -375,7 +376,7 @@ ul p {
 
 .social-images{
     margin-top: 60px;
-    margin-left: 545px;
+    margin-left: 495px;
     margin-right: auto;
     width: 30px;
     height: 30px;
@@ -391,4 +392,5 @@ ul p {
 .copyright{
     margin-top: 30px;
     margin-left: 629px;
+    margin-bottom: 20px;
 }
