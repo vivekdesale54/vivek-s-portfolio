@@ -1,1 +1,3 @@
-let action = document.getElementById("action1()")
+let action = document.getElementById("cta1").onclick = function {
+    
+}
